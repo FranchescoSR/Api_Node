@@ -5,3 +5,31 @@
 </p>
 
 Elaboracion de Una api con NodeJS y socket.io, esto es parte del conjunto de proyectos de la app Proteo.
+
+
+## Autor
+
+- [@FranchescoSR](https://www.github.com/FranchescoSR)
+
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
