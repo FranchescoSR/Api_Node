@@ -3,4 +3,5 @@
 <p align="left">
    <img src="https://img.shields.io/badge/Status-En%20Desarrollo-green">
 </p>
- <img src="https://img.shields.io/badge/Status-En%20Desarrollo-green"> Elaboracion de Una api con NodeJS y socket.io, esto es parte del conjunto de proyectos de la app Proteo.
+
+Elaboracion de Una api con NodeJS y socket.io, esto es parte del conjunto de proyectos de la app Proteo.
