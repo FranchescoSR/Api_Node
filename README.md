@@ -14,22 +14,32 @@ Elaboracion de Una api con NodeJS y socket.io, esto es parte del conjunto de pro
 
 ## API Reference
 
-#### Get all items
+#### Get all proyectos
 
 ```http
-  GET /api/items
+  GET proteo/proyectos/all
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `none` | `none` | **No Required**. |
 
-#### Get item
+#### Get proyecto
 
 ```http
-  GET /api/items/${id}
+  GET /proyectos/show/${id}
 ```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
+| `id`      | `string` | **Required**. Id del Proyecto |
+
+#### Get all mensajes (socket.io)
+
+```http
+  GET /proteo/mensajes
+```
+
+| Event | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `getAll` | `string` | **Required**. Llamada a Evento getAll|
