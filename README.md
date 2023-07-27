@@ -50,4 +50,8 @@ Elaboracion de Una api con NodeJS y socket.io, esto es parte del conjunto de pro
 
 ## Versiones
 
-v1.0.0 Julio 2023 -> Rutas usuario,proyecto,mensajes (metodos show y all) y authentication (login) 
+V1.0.0 - Julio 2023 
+#### Rutas 
+- Usuario, Proyecto, Mensajes (show y all) 
+- Authentication (login) 
+
