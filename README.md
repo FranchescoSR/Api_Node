@@ -40,6 +40,14 @@ Elaboracion de Una api con NodeJS y socket.io, esto es parte del conjunto de pro
   GET /proteo/mensajes
 ```
 
+## API Reference
+
+#### Get all proyectos
+
 | Event | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `getAll` | `string` | **Required**. Llamada a Evento getAll|
+
+## Versiones
+
+v1.0.0 Julio 2023 -> Rutas usuario,proyecto,mensajes (metodos show y all) y authentication (login) 
